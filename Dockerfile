@@ -8,5 +8,5 @@ RUN apk-install nodejs \
 
 ADD . /srv/app
 
-EXPOSE 3000
+EXPOSE 5000
 CMD ["npm", "start"]
